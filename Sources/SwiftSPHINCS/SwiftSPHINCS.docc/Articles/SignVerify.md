@@ -24,8 +24,8 @@ let randomizedSig = secretKey.Sign(message: [1, 2, 3], randomize: true)
 print("Randomized:", publicKey.Verify(message: [1, 2, 3], signature: randomizedSig))
 
 // Pre-hashed signature
-let preHashedSig = secretKey.SignPrehash(message: [1, 2, 3], ph: .SHA256)
-print("Pre-hashed:", publicKey.VerifyPrehash(message: [1, 2, 3], signature: preHashedSig, ph: .SHA256))
+let preHashedSig = secretKey.Sign(message: [1, 2, 3], ph: .SHA256)
+print("Pre-hashed:", publicKey.Verify(message: [1, 2, 3], signature: preHashedSig, ph: .SHA256))
 ```
 
 giving:

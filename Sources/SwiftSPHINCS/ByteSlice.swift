@@ -7,7 +7,7 @@
 
 struct ByteSlice {
     
-    var array: Bytes
+    let array: Bytes
     var from: Int
     
     init(_ array: Bytes) {
@@ -22,7 +22,6 @@ struct ByteSlice {
     }
     
 }
-
 
 extension Array where Element == Byte {
 

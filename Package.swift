@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
   		.package(url: "https://github.com/leif-ibsen/ASN1", from: "2.7.0"),
-  		.package(url: "https://github.com/leif-ibsen/BigInt", from: "1.21.0"),
+  		.package(url: "https://github.com/leif-ibsen/BigInt", from: "1.22.0"),
   		.package(url: "https://github.com/leif-ibsen/Digest", from: "1.13.0"),
     ],
     targets: [

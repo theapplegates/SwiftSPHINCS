@@ -61,7 +61,7 @@ struct ADRS {
     func getLayerAddress() -> Int {
         return Int(self.adrs[0])
     }
-    
+
     mutating func setLayerAddress(_ x: Int) {
         self.adrs[0] = Word(x)
     }
@@ -153,5 +153,5 @@ struct ADRS {
         x[21] = Byte((self.adrs[7] >> 0) & 0xff)
         return x
     }
-    
+
 }

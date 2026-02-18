@@ -21,7 +21,7 @@ To use SwiftSPHINCS, in your project *Package.swift* file add a dependency like
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/leif-ibsen/SwiftSPHINCS", from: "3.4.0"),
+  .package(url: "https://github.com/leif-ibsen/SwiftSPHINCS", from: "3.5.0"),
 ]
 ```
 
@@ -30,7 +30,7 @@ SwiftSPHINCS itself depends on the [ASN1](https://leif-ibsen.github.io/ASN1/docu
 ```swift
 dependencies: [
   .package(url: "https://github.com/leif-ibsen/ASN1", from: "2.7.0"),
-  .package(url: "https://github.com/leif-ibsen/BigInt", from: "1.21.0"),
+  .package(url: "https://github.com/leif-ibsen/BigInt", from: "1.22.0"),
   .package(url: "https://github.com/leif-ibsen/Digest", from: "1.13.0"),
 ],
 ```
